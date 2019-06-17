@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(53, 39, 51);
+    color: wheat;
+
+}
+
+
+a {
+    color: beige;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(197, 197, 185);
+
+}
+
+
+div.text-center i.fa-arrow-circle-down {
+    color: beige;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    animation: arrow 2s infinite;
+}
+
+.circle {
+    width: 20vh;
+    height: 20vh;
+}
+
+.zero {
+    background-color: rgb(54, 37, 51);
+
+}
+
+.one {
+    background-color: rgb(175, 238, 111);
+}
+
+.one:hover {
+    background-color: rgb(143, 190, 95);
+
+}
+
+.two {
+    background-color: rgb(186, 128, 240);
+}
+
+.two:hover {
+    background-color: rgb(154, 106, 199);
+}
+
+.three {
+    background-color: chocolate;
+}
+
+.three:hover {
+    background-color: rgb(175, 87, 24);
+}
+
+.four {
+    background-color: rgb(241, 155, 169);
+
+}
+
+.four:hover {
+    background-color: rgb(199, 124, 136);
+}
+
+.five {
+    background-color: tomato;
+
+}
+
+.five:hover {
+    background-color: rgb(199, 78, 57);
+}
+
+.six {
+    background-color: rgb(246, 200, 127);
+}
+
+.six:hover {
+    background-color: rgb(211, 171, 107);
+}
+
+.seven {
+    background-color: rgb(195, 195, 115);
+}
+
+.seven:hover {
+    background-color: rgb(170, 170, 103);
+}
+
+.eight {
+    background-color: rgb(136, 230, 220);
+}
+
+.eight:hover {
+    background-color: rgb(117, 200, 192);
+}
+
+.fab,
+.fas {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+div.nine i.fab,
+div.nine i.fas {
+    font-size: 1.4rem;
+}
+
+@keyframes arrow {
+    0% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: 0;
+
+    }
+
+    40% {
+        margin-top: 2%;
+    }
+
+    60% {
+        margin-top: 2%;
+    }
+
+    80% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+@media(max-width:1000px) {
+    .fas {
+        font-size: 1.4rem;
+    }
+}
+
+@media(min-width:1000px) {
+    header {
+        min-height: 100vh;
+    }
+}
