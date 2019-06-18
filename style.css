@@ -10,7 +10,6 @@ body {
 
 }
 
-
 a {
     color: beige;
 }
@@ -22,9 +21,10 @@ a:hover {
 }
 
 
-div.text-center i.fa-arrow-circle-down {
+div.header-mw i.fa-arrow-circle-down {
+
     color: beige;
-    top: 50%;
+    top: calc(50% - 3rem);
     left: 50%;
     font-size: 3rem;
     animation: arrow 2s infinite;
@@ -156,17 +156,13 @@ div.nine i.fas {
     }
 }
 
-@media(min-width:1000px) {
-    .header-mw {
-        min-height: 100vh;
-    }
-}
+
 
 /*courses*/
 
 .fa-arrow-circle-left {
     color: beige;
-    top: 50%;
+    top: 30%;
     left: 20%;
     font-size: 3rem;
     animation: arrow-left 2s infinite;
