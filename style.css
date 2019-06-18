@@ -40,6 +40,11 @@ div.text-center i.fa-arrow-circle-down {
 
 }
 
+.zero-mw {
+    background-color: rgb(63, 37, 58);
+
+}
+
 .one {
     background-color: rgb(175, 238, 111);
 }
@@ -152,7 +157,76 @@ div.nine i.fas {
 }
 
 @media(min-width:1000px) {
-    header {
+    .header-mw {
         min-height: 100vh;
+    }
+}
+
+/*courses*/
+
+.fa-arrow-circle-left {
+    color: beige;
+    top: 50%;
+    left: 20%;
+    font-size: 3rem;
+    animation: arrow-left 2s infinite;
+
+}
+
+div.course .fa-github,
+.fa-html5,
+.fa-css3,
+.fa-js-square,
+.fa-git-alt,
+.fa-bootstrap,
+.fa-plane,
+.fa-check-circle,
+.fa-check-circle {
+    font-size: 6rem;
+    color: beige;
+}
+
+
+
+@keyframes arrow-left {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+
+    }
+
+    40% {
+        margin-left: 2%;
+    }
+
+    60% {
+        margin-left: 2%;
+    }
+
+    80% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@media(max-width:1000px) {
+
+    div.course .fa-github,
+    .fa-html5,
+    .fa-css3,
+    .fa-js-square,
+    .fa-git-alt,
+    .fa-bootstrap,
+    .fa-plane,
+    .fa-check-circle,
+    .fa-check-circle {
+        font-size: 4rem;
+
     }
 }
