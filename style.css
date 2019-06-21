@@ -5,13 +5,14 @@
 
 
 body {
-    background-color: rgb(53, 39, 51);
-    color: wheat;
+    background-color: rgb(98, 98, 98);
+    color: rgb(8, 8, 8);
 
 }
 
 a {
-    color: beige;
+    color: rgb(8, 8, 8);
+
 }
 
 a:hover {
@@ -20,6 +21,21 @@ a:hover {
 
 }
 
+
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+p,
+h3,
+h4,
+h5 {
+    font-family: 'Lato', sans-serif;
+}
 
 div.header-mw i.fa-arrow-circle-down {
 
@@ -36,14 +52,11 @@ div.header-mw i.fa-arrow-circle-down {
 }
 
 .zero {
-    background-color: rgb(54, 37, 51);
+    background-color: rgb(230, 231, 235);
 
 }
 
-.zero-mw {
-    background-color: rgb(63, 37, 58);
 
-}
 
 .one {
     background-color: rgb(175, 238, 111);
@@ -160,14 +173,7 @@ div.nine i.fas {
 
 /*courses*/
 
-.fa-arrow-circle-left {
-    color: beige;
-    top: 30%;
-    left: 20%;
-    font-size: 3rem;
-    animation: arrow-left 2s infinite;
 
-}
 
 div.course .fa-github,
 .fa-html5,
@@ -179,7 +185,8 @@ div.course .fa-github,
 .fa-check-circle,
 .fa-check-circle {
     font-size: 6rem;
-    color: beige;
+    color: rgb(98, 98, 98);
+    text-shadow: 2px 2px 5px black;
 }
 
 
