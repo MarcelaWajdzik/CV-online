@@ -5,15 +5,49 @@
 
 
 body {
-    background-color: rgb(98, 98, 98);
-    color: rgb(8, 8, 8);
+    background-color: rgb(46, 45, 45);
+    color: rgb(223, 219, 219);
+
 
 
 }
 
+/* arrow down*/
+div.header-mw i.fa-arrow-circle-down {
+
+    color: beige;
+    top: calc(50% - 3rem);
+    left: 50%;
+    font-size: 3rem;
+    animation: arrow 2s infinite;
+}
+
+/*end - arrow down*/
+
+
+/*back to nav*/
+#top {
+    display: inline-block;
+    font-size: 3rem;
+    color: rgb(148, 156, 98);
+    bottom: 30px;
+    right: 20px;
+    position: fixed;
+    z-index: 99;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+#top.show {
+    opacity: 1;
+}
+
+/* end-back to nav*/
 
 a {
-    color: rgb(8, 8, 8);
+    color: rgb(223, 219, 219);
+
 
 }
 
@@ -25,28 +59,22 @@ a:hover {
 
 
 h1 {
-    font-family: 'Sacramento', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 
-h2 {
-    font-family: 'Julius Sans One', sans-serif;
-}
-
-p,
+h2,
 h3,
 h4,
-h5 {
-    font-family: 'Lato', sans-serif;
+h5,
+h6 {
+    font-family: 'News Cycle', sans-serif;
 }
 
-div.header-mw i.fa-arrow-circle-down {
-
-    color: beige;
-    top: calc(50% - 3rem);
-    left: 50%;
-    font-size: 3rem;
-    animation: arrow 2s infinite;
+p {
+    font-family: 'Sintony', sans-serif;
 }
+
+/* nav*/
 
 .circle {
     width: 20vh;
@@ -129,15 +157,17 @@ div.header-mw i.fa-arrow-circle-down {
 
 .fab,
 .fas {
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(0, 0, 0);
 }
 
+/* Footer font awesome*/
 div.nine i.fab,
 div.nine i.fas {
     font-size: 1.4rem;
 }
 
+/* arrow down -animation*/
 @keyframes arrow {
     0% {
         margin-top: 0;
@@ -165,15 +195,14 @@ div.nine i.fas {
     }
 }
 
-@media(max-width:1000px) {
-    .fas {
-        font-size: 1.4rem;
-    }
-}
+/* end - arrow down -animation*/
 
 
 
-/*courses*/
+
+
+
+/*courses font awesome*/
 
 
 
@@ -186,41 +215,47 @@ div.course .fa-github,
 .fa-plane,
 .fa-check-circle,
 .fa-check-circle {
-    font-size: 6rem;
+    font-size: 5rem;
     color: rgb(98, 98, 98);
     text-shadow: 2px 2px 5px black;
 }
 
 
 
-@keyframes arrow-left {
-    0% {
-        margin-left: 0;
-    }
+/* Social media*/
 
-    20% {
-        margin-left: 0;
-
-    }
-
-    40% {
-        margin-left: 2%;
-    }
-
-    60% {
-        margin-left: 2%;
-    }
-
-    80% {
-        margin-left: 0;
-    }
-
-    100% {
-        margin-left: 0;
-    }
+#jumbo {
+    background-image: url('image/github.jpg');
+    /*Obraz Andrian Valeanu z Pixabay   */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+#jumbotwo {
+    background-image: url('image/linkedin.jpg');
+    /*Obraz Pete Linforth z Pixabay */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Experience*/
+#jumbothree {
+    background-image: url('image/biology.jpg');
+    /* Photo by Rodolfo Clix from Pexels*/
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+
+
 @media(max-width:1000px) {
+
+
 
     div.course .fa-github,
     .fa-html5,
@@ -231,7 +266,13 @@ div.course .fa-github,
     .fa-plane,
     .fa-check-circle,
     .fa-check-circle {
-        font-size: 4rem;
-
+        font-size: 3rem;
+        text-shadow: 1px 1px 3px black;
     }
+
+    #top {
+
+        font-size: 2rem;
+    }
+
 }
